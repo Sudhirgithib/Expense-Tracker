@@ -100,8 +100,8 @@ function viewExpenses() {
     <p>Expenses excluding rent: ₹${excludingRent.toFixed(2)}/-</p>
     <p>Expenses excluding rent and mess fee: ₹${excludingRentMess.toFixed(2)}/-</p>
     <p>Average weekly expense : ₹${weeklyAverage.toFixed(2)}/-</p>
-    <p>Highest expense: ${highestLabel} — ₹${highestAmount.toFixed(2)}</p>
-    <p>Lowest expense : ${lowestLabel} — ₹${lowestAmount.toFixed(2)}</p>
+    <p>Highest expense of the month: ${highestLabel} — ₹${highestAmount.toFixed(2)}</p>
+    <p>Lowest expense of the month : ${lowestLabel} — ₹${lowestAmount.toFixed(2)}</p>
   `;
   output.appendChild(summaryDiv);
 }
