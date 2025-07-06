@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Personal Expense Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Personal Expense Tracker</h1>
+    <p>Paste your monthly expenses below:</p>
+    <textarea id="expenseInput" placeholder="e.g.&#10;Milk 40&#10;Eggs 25&#10;Rent 1000"></textarea>
+    <br />
+    <button onclick="saveToLocal()">Save Expenses</button>
+    <button onclick="viewExpenses()">View Saved</button>
+    <div id="output" style="margin-top: 20px;"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
